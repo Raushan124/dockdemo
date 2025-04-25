@@ -1,8 +1,8 @@
 FROM openjdk:17
 
-COPY target/dockdemo.jar /usr/app
-
 WORKDIR /usr/app
+
+COPY target/dockdemo.jar .
 
 EXPOSE 8080
 
