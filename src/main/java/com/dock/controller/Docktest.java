@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Docktest {
-	@GetMapping
+	@GetMapping("/all")
 	public String run() {
 		return "Hello World";
 	}
